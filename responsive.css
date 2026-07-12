@@ -166,13 +166,17 @@
     justify-content: space-between;
     align-items: flex-start;      /* aligns date to the TOP of the title, even if title wraps to 2 lines */
     gap: 10px;
+    align-items: center;
   }
 
   .blogname {
     font-size: 15px;
     line-height: 1.3;
     flex: 1;
-    min-width: 0;              /* ADD: allows the title to wrap properly instead of pushing date out */
+    min-width: 0;
+    white-space: nowrap;        /* forces single line, no wrapping */
+    overflow: hidden;           /* hides anything beyond the line */
+    text-overflow: ellipsis;    /* adds the "..." at the cut-off point */
   }
 
    .blogdate {
