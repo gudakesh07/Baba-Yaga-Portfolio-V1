@@ -1,20 +1,20 @@
 html {
-  scrollbar-width: none;       /* Firefox */
-  -ms-overflow-style: none; 
-  scroll-behavior: smooth;   /* IE and Edge (legacy) */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
-  display: none;               /* Chrome, Safari, newer Edge */
+  display: none;
 }
 body {
   margin: 0px;
   padding: 0px;
   background-color: #0d0e0f;
   font-family: "JetBrains Mono", monospace;
-  user-select: none;          /* standard property */
-  -webkit-user-select: none;  /* Safari, older Chrome */
-  -moz-user-select: none;     /* Firefox */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
   -ms-user-select: none;
 }
 .navbarr {
@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-radius: 14px;
-  padding: 13px 24px;      /* increase horizontal padding slightly for breathing room on both sides */
+  padding: 13px 24px;
   align-items: center;
 }
 
@@ -63,22 +63,22 @@ body {
 .connect,
 .nav-blogs {
   text-decoration: none;
-  color: inherit;      /* keeps your existing #7c6f64 muted color instead of link-blue */
+  color: inherit;
   cursor: pointer;
 }
 
-.projects:hover{
+.projects:hover {
   color: #95877a;
   transition: color 0.4s ease-in-out;
 }
-.connect:hover{
+.connect:hover {
   color: #95877a;
-  transition: color 0.4s ease-in-out;;
+  transition: color 0.4s ease-in-out;
 }
 .herosection3,
 .herosection5,
 .herosection4 {
-  scroll-margin-top: 90px;   /* adjust to roughly match your navbar's height */
+  scroll-margin-top: 90px;
 }
 .herosection1 {
   box-sizing: border-box;
@@ -192,24 +192,26 @@ body {
   gap: 5px;
   border-radius: 8px;
   margin-right: 15px;
-  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  transition:
+    background-color 0.4s ease-in-out,
+    border-color 0.4s ease-in-out;
   text-decoration: none;
 }
 
 .resume:hover {
   background-color: #1d1f21;
-  border-color: #a89a8a;        /* border brightens subtly too */
+  border-color: #a89a8a;
 }
 
 .resumetxt {
   color: #7c6f64;
   font-size: 14px;
   text-decoration: none;
-  transition: color 0.4s ease-in-out;   /* ADD: so the color change itself is smooth */
+  transition: color 0.4s ease-in-out;
 }
 
 .resume:hover .resumetxt {
-  color: #a89a8a;                 /* subtle lightening, not a big jump */
+  color: #a89a8a;
 }
 
 .book {
@@ -221,24 +223,25 @@ body {
   padding-right: 8px;
   border-radius: 8px;
   font-size: 14px;
-  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+  transition:
+    background-color 0.4s ease-in-out,
+    border-color 0.4s ease-in-out;
 }
 
 .book:hover {
   background-color: #1d1f21;
-  border-color: #c8dba0;          /* border brightens slightly */
+  border-color: #c8dba0;
 }
 
 .call {
   text-decoration: none;
   color: #b4c878;
-  transition: color 0.4s ease-in-out;   /* ADD: smooth color transition */
+  transition: color 0.4s ease-in-out;
 }
 
 .book:hover .call {
-  color: #c8dba0;                  /* subtle lightening from base green */
+  color: #c8dba0;
 }
-
 .herosection2 {
   box-sizing: border-box;
   max-width: 960px;
@@ -254,7 +257,7 @@ body {
   padding-left: 15px;
 }
 
-.subsection21{
+.subsection21 {
   display: flex;
   padding-top: 20px;
   /* padding-left: 15px; */
@@ -263,18 +266,17 @@ body {
   padding-bottom: 20px;
 }
 
-.techstack{
+.techstack {
   padding-left: 5px;
 }
 
-
-.subsection22{
+.subsection22 {
   display: flex;
   gap: 10px;
   align-items: center;
   font-size: 11px;
 }
-.subsection23{
+.subsection23 {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -282,7 +284,7 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-.htmls{
+.htmls {
   border: 1px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -292,7 +294,7 @@ body {
   color: #8cc8b4;
 }
 
-.csss{
+.csss {
   border: 1px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -302,7 +304,7 @@ body {
   color: #8cc8b4;
 }
 
-.js{
+.js {
   border: 1px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -312,7 +314,7 @@ body {
   color: #f0a050;
 }
 
-.cpp{
+.cpp {
   border: 1px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -321,7 +323,7 @@ body {
   padding-bottom: 5px;
   color: #c47d90;
 }
-.git{
+.git {
   border: 1px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -339,7 +341,7 @@ body {
   padding-bottom: 5px;
   color: #8cc8b4;
 }
-.nodejs{
+.nodejs {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -348,7 +350,7 @@ body {
   padding-bottom: 5px;
   color: #b4c878;
 }
-.opencode{
+.opencode {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -357,7 +359,7 @@ body {
   padding-bottom: 5px;
   color: #c47d90;
 }
-.python{
+.python {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -366,7 +368,7 @@ body {
   padding-bottom: 5px;
   color: #f0a050;
 }
-.aistudio{
+.aistudio {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -375,7 +377,7 @@ body {
   padding-bottom: 5px;
   color: #c47d90;
 }
-.linuxx{
+.linuxx {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -384,7 +386,7 @@ body {
   padding-bottom: 5px;
   color: #b4c878;
 }
-.notion{
+.notion {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -393,7 +395,7 @@ body {
   padding-bottom: 5px;
   color: #8cc8b4;
 }
-.vercel{
+.vercel {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -402,7 +404,7 @@ body {
   padding-bottom: 5px;
   color: #b4c878;
 }
-.figmaa{
+.figmaa {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -411,7 +413,7 @@ body {
   padding-bottom: 5px;
   color: #8cc8b4;
 }
-.bash{
+.bash {
   border: 0.5px solid #7c6f64;
   border-radius: 5px;
   padding-left: 10px;
@@ -421,18 +423,44 @@ body {
   color: #b4c878;
 }
 
-.htmls, .csss, .js, .cpp, .git, .vs, .nodejs, .opencode, 
-.python, .aistudio, .linuxx, .notion, .vercel, .figmaa, .bash {
-  transition: background-color 0.3s ease, border-color 0.3s ease;
-  cursor: default;   /* or 'pointer' if these are meant to be clickable */
+.htmls,
+.csss,
+.js,
+.cpp,
+.git,
+.vs,
+.nodejs,
+.opencode,
+.python,
+.aistudio,
+.linuxx,
+.notion,
+.vercel,
+.figmaa,
+.bash {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+  cursor: default;
 }
 
-.htmls:hover, .csss:hover, .js:hover, .cpp:hover, .git:hover, 
-.vs:hover, .nodejs:hover, .opencode:hover, .python:hover, 
-.aistudio:hover, .linuxx:hover, .notion:hover, .vercel:hover, 
-.figmaa:hover, .bash:hover {
-  background-color: #1f1f1f;   /* subtle lightening from your dark background */
-  border-color: #a8a8a8;        /* border brightens slightly on hover too */
+.htmls:hover,
+.csss:hover,
+.js:hover,
+.cpp:hover,
+.git:hover,
+.vs:hover,
+.nodejs:hover,
+.opencode:hover,
+.python:hover,
+.aistudio:hover,
+.linuxx:hover,
+.notion:hover,
+.vercel:hover,
+.figmaa:hover,
+.bash:hover {
+  background-color: #1f1f1f;
+  border-color: #a8a8a8;
 }
 .herosection3 {
   box-sizing: border-box;
@@ -448,24 +476,25 @@ body {
   /* padding: 100px; */
   padding-left: 15px;
 }
-/* ------------------------ */
+
 .project-card {
   background: #1a1a1a;
   border: 1px solid #3a3a3a;
   border-radius: 12px;
-  overflow: hidden;             /* keeps zoomed image from breaking out of rounded corners */
+  overflow: hidden;
   position: relative;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .project-card:hover {
-  background: #202020;          /* subtle background lift on hover */
+  background: #202020;
   border-color: #4a4a4a;
 }
 
-/* --- Image zoom on hover --- */
 .project-image-wrap {
-  overflow: hidden;             /* crops the zoomed image so it doesn't overflow the box */
+  overflow: hidden;
   position: relative;
 }
 
@@ -473,18 +502,17 @@ body {
   width: 100%;
   height: 220px;
   object-fit: cover;
-  transition: transform 0.5s ease;  /* the smoothness of the zoom */
+  transition: transform 0.5s ease;
 }
 
 .project-card:hover .project-image {
-  transform: scale(1.08);       /* zoom amount — 1.05 to 1.1 feels natural, avoid going higher */
+  transform: scale(1.08);
 }
 
-/* --- Dark overlay that fades in on hover (optional, adds depth) --- */
 .image-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.4), transparent 60%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent 60%);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -493,14 +521,13 @@ body {
   opacity: 1;
 }
 
-/* --- Text content --- */
 .project-content {
   padding: 20px;
   position: relative;
 }
 
 .project-name {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   color: #e8e8e8;
   font-size: 18px;
   margin-bottom: 8px;
@@ -508,7 +535,7 @@ body {
 }
 
 .project-card:hover .project-name {
-  color: #a8d8a8;               /* shifts toward your green accent on hover */
+  color: #a8d8a8;
 }
 
 .project-desc {
@@ -519,17 +546,18 @@ body {
 }
 
 .view-project {
-  color: #d4a373;               /* your orange accent */
+  color: #d4a373;
   font-size: 13px;
   text-decoration: none;
-  transition: gap 0.3s ease, opacity 0.3s ease;
+  transition:
+    gap 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .view-project:hover {
   opacity: 0.8;
 }
 
-/* --- Live badge with glowing pulse --- */
 .live-badge {
   position: absolute;
   bottom: 20px;
@@ -542,13 +570,13 @@ body {
 .live-dot {
   width: 8px;
   height: 8px;
-  background: #4ade80;          /* green dot */
+  background: #4ade80;
   border-radius: 50%;
   animation: pulse-glow 1.8s ease-in-out infinite;
 }
 
 .live-text {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 11px;
   color: #4ade80;
   text-transform: uppercase;
@@ -556,7 +584,8 @@ body {
 }
 
 @keyframes pulse-glow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.6);
     opacity: 1;
   }
@@ -568,13 +597,11 @@ body {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* 2x2 grid for 4 projects */
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  /* padding-left: 5px; */
 }
-
 
 .herosection4 {
   box-sizing: border-box;
@@ -586,9 +613,8 @@ body {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  overflow: hidden; 
+  overflow: hidden;
 }
-
 
 .subsection41 {
   display: flex;
@@ -597,17 +623,17 @@ body {
   color: #7c6f64;
   align-items: center;
   padding-bottom: 20px;
-  gap: 8px;                       /* space between $ and "cat blogs.log" */
-  font-family: 'JetBrains Mono', monospace;
+  gap: 8px;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .blogs {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 0 20px 20px 20px;   /* top right bottom left — even padding on ALL sides */
+  padding: 0 20px 20px 20px;
   width: 100%;
-  box-sizing: border-box;       /* ADD THIS: makes padding count inside the width, not add to it */
+  box-sizing: border-box;
 }
 
 .blogone,
@@ -615,9 +641,11 @@ body {
   background-color: #171717;
   color: #7c6f64;
   border-radius: 8px;
-  padding: 16px 20px;           /* increase horizontal padding a bit too — 20px instead of 16px */
-  box-sizing: border-box;       /* ADD THIS too */
-  transition: background 0.3s ease, border-color 0.3s ease;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
   border: 1px solid transparent;
 }
 
@@ -638,11 +666,10 @@ body {
 .blogname {
   font-size: 18px;
   font-weight: 600;
-  color: #d4d4d4;                /* brighter than body text so title stands out */
-  font-family: 'JetBrains Mono', monospace;
+  color: #d4d4d4;
+  font-family: "JetBrains Mono", monospace;
 }
 
-/* --- blogtwo's special heading style --- */
 .blogheading {
   display: flex;
   align-items: center;
@@ -650,7 +677,7 @@ body {
 }
 
 .tilde-inline {
-  color: #6b9b6b;                 /* matches your green accent */
+  color: #6b9b6b;
 }
 
 .blogheadingtext {
@@ -661,9 +688,8 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex-shrink: 0;                 /* prevents date from shrinking/wrapping oddly */
+  flex-shrink: 0;
 }
-
 .date {
   font-size: 13px;
   color: #7c6f64;
@@ -679,11 +705,11 @@ body {
 
 .read {
   font-size: 13px;
-  color: #d4a373;                 /* your orange accent */
+  color: #d4a373;
   cursor: pointer;
   transition: opacity 0.3s ease;
   width: fit-content;
-  text-decoration: none;              /* keeps hover/click area tight to text, not full width */
+  text-decoration: none;
 }
 
 .read:hover {
@@ -714,7 +740,7 @@ body {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 20px 15px;   /* even padding on all sides — fixes the right-side cramping */
+  padding: 20px 15px;
 }
 .subsection51 {
   display: flex;
@@ -723,20 +749,20 @@ body {
   color: #7c6f64;
   align-items: center;
   padding-bottom: 20px;
-  gap: 8px;                       /* space between $ and "cat blogs.log" */
-  font-family: 'JetBrains Mono', monospace;
+  gap: 8px;
+  font-family: "JetBrains Mono", monospace;
 }
 .socials {
   display: flex;
   gap: 24px;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;   /* back to grouped, not spread across full width */
+  justify-content: center;
   width: 100%;
 }
 
 .social-item {
-  position: relative;   /* anchors the hover card to this exact button */
+  position: relative;
 }
 
 .social-btn {
@@ -748,12 +774,15 @@ body {
   border: 1px solid #3a3a3a;
   border-radius: 8px;
   color: #d4d4d4;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   cursor: pointer;
-  text-decoration: none;        /* needed now since some are <a> tags */
+  text-decoration: none;
   width: auto;
-  transition: border-color 0.3s ease, background 0.3s ease, color 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .social-btn:hover {
@@ -776,11 +805,14 @@ body {
   background: #171717;
   border: 1px solid #3a3a3a;
   border-radius: 12px;
-  overflow: hidden;        /* <-- THIS clips everything to the rounded card shape */
+  overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s ease;
   z-index: 50;
   pointer-events: none;
 }
@@ -788,17 +820,16 @@ body {
 .social-item:hover .hover-card {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0);   /* slides up into place */
+  transform: translateX(-50%) translateY(0);
 }
 
 .hover-card-banner {
   height: 60px;
   width: 100%;
-  overflow: hidden;         /* <-- THIS crops the image to the 60px strip */
+  overflow: hidden;
   background: linear-gradient(135deg, #2a2a3a, #1a2a3a);
   position: relative;
 }
-
 
 .hover-card-body {
   padding: 0 16px 16px 16px;
@@ -809,14 +840,14 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  border: 3px solid #171717;   /* matches card bg, creates the "cutout" ring effect from your reference */
-  margin-top: -28px;            /* pulls avatar up to overlap the banner */
+  border: 3px solid #171717;
+  margin-top: -28px;
   display: block;
   object-fit: cover;
 }
 
 .hover-card-name {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 15px;
   font-weight: 600;
   color: #e8e8e8;
@@ -825,7 +856,7 @@ body {
 
 .hover-card-handle {
   font-size: 12px;
-  color: #6b9b6b;   /* green accent */
+  color: #6b9b6b; /* green accent */
   margin-top: 2px;
 }
 
@@ -848,11 +879,10 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;  /* controls which part of the photo shows — try 'top' or 'center 30%' if a face gets cropped oddly */
+  object-position: center;
   display: block;
 }
 
-/* compact variant: no banner, avatar sits inline instead of overlapping */
 .hover-card-compact {
   padding: 16px;
 }
@@ -914,7 +944,6 @@ body {
   font-weight: 600;
 }
 
-/* accent colors for the two new buttons, same pattern as before */
 .btn-twitter {
   border-color: #4a4a4a;
   color: #d4d4d4;
@@ -973,18 +1002,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;    /* ADD: makes sure padding doesn't push width past 100% */
+  box-sizing: border-box; /* ADD: makes sure padding doesn't push width past 100% */
 }
 
 .quote-text {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 18px;
   line-height: 1.7;
   color: #d4d4d4;
   max-width: 700px;
-  width: 100%;                /* ADD: forces the paragraph to take full available width */
-  margin: 0 auto;              /* ADD: centers the 700px box itself within quotebody */
-  text-align: center;          /* keep this — centers the actual text within that box */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .quote-author {
@@ -997,15 +1026,15 @@ body {
 .quote-line {
   width: 40px;
   height: 1px;
-  background: #4a4a4a;        /* the small decorative dash on either side */
+  background: #4a4a4a;
 }
 
 .quote-name {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 12px;
   font-weight: 700;
   color: #999;
-  letter-spacing: 1.5px;      /* the spaced-out lettering effect from your reference */
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
@@ -1030,19 +1059,19 @@ body {
   color: #f0a050;
   align-items: center;
   padding-bottom: 20px;
-  gap: 8px;                       /* space between $ and "cat blogs.log" */
-  font-family: 'JetBrains Mono', monospace;
+  gap: 8px;
+  font-family: "JetBrains Mono", monospace;
 }
-.Mark{
+.Mark {
   color: #d4a373;
 }
-.source{
+.source {
   text-decoration: none;
   color: #d4d4d4;
   padding-right: 20px;
 }
 
-.source:hover{
+.source:hover {
   color: #eeeded;
 }
 
@@ -1053,11 +1082,11 @@ body {
   color: #7c6f64;
   align-items: center;
   padding-bottom: 20px;
-  gap: 8px;                       /* space between $ and "cat blogs.log" */
-  font-family: 'JetBrains Mono', monospace;
+  gap: 8px;
+  font-family: "JetBrains Mono", monospace;
 }
 
-.techstack1{
+.techstack1 {
   padding-left: 1px;
 }
 
@@ -1068,9 +1097,13 @@ body {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(107, 155, 107, 0.15), transparent 70%);
-  pointer-events: none;      /* CRITICAL: lets clicks/hovers pass through to elements underneath */
-  transform: translate(-50%, -50%);   /* centers the glow exactly on the cursor coordinates */
-  z-index: 9999;               /* sits above your content */
+  background: radial-gradient(
+    circle,
+    rgba(107, 155, 107, 0.15),
+    transparent 70%
+  );
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
   transition: opacity 0.3s ease;
 }

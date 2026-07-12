@@ -94,7 +94,7 @@
     width: 100%;
     padding: 16px;
     box-sizing: border-box;
-    overflow-x: hidden;           /* safety net: prevents any horizontal scroll on this card */
+    overflow-x: hidden;          
   }
 
   .subsection21 {
@@ -117,7 +117,7 @@
 
 
   .subsection23 {
-    margin-top: 8px;             /* small breathing room between the two rows */
+    margin-top: 8px;     
     padding-bottom: 20px;
   }
 
@@ -126,7 +126,7 @@
     flex: 0 0 auto;
     white-space: nowrap;
     margin: 0;
-    max-width: 100%;               /* prevents any single tag from exceeding container width */
+    max-width: 100%;
   }
 
   .herosection3 {
@@ -162,9 +162,9 @@
 
   .blogoneupper {
     display: flex;
-    flex-direction: row;          /* back to same-line, not stacked */
+    flex-direction: row;         
     justify-content: space-between;
-    align-items: flex-start;      /* aligns date to the TOP of the title, even if title wraps to 2 lines */
+    align-items: flex-start;
     gap: 10px;
     align-items: center;
   }
@@ -174,15 +174,15 @@
     line-height: 1.3;
     flex: 1;
     min-width: 0;
-    white-space: nowrap;        /* forces single line, no wrapping */
-    overflow: hidden;           /* hides anything beyond the line */
-    text-overflow: ellipsis;    /* adds the "..." at the cut-off point */
+    white-space: nowrap;        
+    overflow: hidden;           
+    text-overflow: ellipsis;  
   }
 
    .blogdate {
     flex-shrink: 0;
     white-space: nowrap;
-    margin-top: 2px;            /* ADD: fine-tune vertical alignment with the title's first line */
+    margin-top: 2px;            
   }
 
   .date {
@@ -190,7 +190,7 @@
   }
   .blogmiddle {
     display: -webkit-box;
-    -webkit-line-clamp: 2;        /* the actual line limit */
+    -webkit-line-clamp: 2;        
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
