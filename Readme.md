@@ -2,7 +2,7 @@
 
 A terminal-inspired personal portfolio built from scratch with plain HTML, CSS, and JavaScript. No frameworks, no build tools — just a dark, monospace aesthetic designed to feel like you're poking around someone's terminal.
 
-**Live site:** [[Visit the site](https://babayagaexe.vercel.app/)]
+**Live site:** [[Visit the site](https://gudakesh.me/)]
 
 ---
 
